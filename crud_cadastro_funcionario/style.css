@@ -1,0 +1,283 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*fundo da tela, fazer em backgroud animado*/
+    background-color: rgba(0,0,0,0.1); 
+
+}
+
+/*ponteiro do mouse no botão1 (tela principal)*/
+button1 {
+    cursor: cell;
+}
+
+button {
+    cursor: pointer;
+}
+
+/*tela central*/
+.container {
+    /*horizontal*/
+    width: 90%;
+    /*altura*/
+    height: 80%;
+    /*borda (podendo ficar arredondada conforme aumenta*/
+    border-radius: 10px;
+    /*indicado: background: white | 0.3 (transparência)*/
+    background: white;
+}
+
+/*Cadastro de Funcionários e botão incluir
+ <div class="header">
+            <span>Cadastro de Funcionários</span>
+            <button onclick="openModal()" id="new">Incluir</i></button>*/
+.header {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 12px;
+}
+
+/*<span>Cadastro de Funcionários</span>*/
+.header span {
+    /*verificar*/
+    font-weight: 800;
+    /*tamanho da fonte*/
+    font-size: 20px;
+    /*verificar*/
+    word-break: break-all;
+}
+
+/*botão de Incluir*/
+#new {
+    /*tamanho da fonte*/
+    font-size: 14px;
+    /*altura*/
+    padding: 8px;
+    /*borda (podendo ficar redonda*/
+    border-radius: 20px;
+    border: none;
+    /*cor do nome do botão*/
+    color: white;
+    /*cor do botão*/
+    background-color: rgba(6, 36, 54, 0.959);
+}
+
+/*Toda a tabela*/
+.divTable {
+    padding: 10px;
+    width: auto;
+    /*barra de rolagem abaixo (se conter), neste item abaixo*/ 
+    height: inherit;
+    /*barra de rolagem*/
+    overflow: auto;
+}
+
+.divTable::-webkit-scrollbar {
+    width: 12px;
+    background-color: whitesmoke; 
+}
+
+.divTable::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: darkgray; 
+}
+
+table {
+    width: 1200px;
+    /*distribuir igualmente o tamanho das colunas*/
+    table-layout: fixed;
+    border-spacing: 10px;
+    word-break: break-all;
+    border-collapse: collapse;
+}
+
+thead {
+    /*Cor de fundo da tabela: primeira linha destaques*/
+    background-color: rgba(80, 117, 139, 0.959);
+}
+
+tr {
+    /*linha separadora da tabela*/
+    border-bottom: 1px solid rgb(238, 235, 235)!important;
+}
+
+tbody tr td {
+/*espaçamento de cada linha da tabela inclusa pelo incluir*/
+    vertical-align: text-top;
+    padding: 6px;
+    max-width: 50px;
+}
+
+/*espaçamento da linha principal*/
+thead tr th {
+    padding: 5px;
+    text-align: start;
+    margin-bottom: 50px;
+}
+
+/*verificar*/
+tbody tr {
+    margin-bottom: 50px;
+}
+
+/*alinhamento dos textos na tabela*/
+thead tr th.acao {
+    /*altura*/
+    width: 100px!important;
+    text-align: justify;
+}
+
+/*alinhamento dos ícones na tabela*/
+tbody tr td.acao {
+    text-align: center;
+}
+
+/*verificar*/
+@media (max-width: 700px) {
+    body {
+      font-size: 10px;
+    }
+
+    .header span {
+        font-size: 15px;
+    }
+
+    #new {
+        padding: 5px;
+        font-size: 10px;
+    }
+
+    thead tr th.acao {
+        width: auto!important;
+    }
+      
+    td button i {
+        font-size: 20px!important;
+    }
+    
+    td button i:first-child {
+        margin-right: 0;
+    }
+    
+    .modal {
+        width: 90%!important;
+    }
+    
+    .modal label {
+        font-size: 12px!important;
+    }
+}
+
+/*após clicar em Incluir, a janela que abre (modal)*/
+.modal-container {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*transparência do fundo do modal*/
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    z-index: 999;
+    /*local da janela modal*/
+    align-items: center;
+    justify-content: center;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 40px;
+    background-color: white;
+    /*borda janela modal*/
+    border-radius: 20px;
+    /*tamanho lateral*/
+    width: 50%;
+}
+
+/*nome de cada item (nome, sobrenome e idade etc)*/
+.modal label {
+    /*tamanho da fonte*/
+    font-size: 14px;
+    width: 100%;
+}
+
+.modal input {
+    width: 100%;
+    outline: none;
+    padding: 5px 10px; 
+    width: 100%;
+    margin-bottom: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.modal button {
+    width: 100%;
+    margin: 10px auto;
+    outline: none;
+    border-radius: 15px; 
+    padding: 5px 10px; 
+    width: 100%;
+    border: none;
+    background-color: rgba(6, 36, 54, 0.959);
+    color: white;
+}
+
+/*onde a caixa após o clicar em Incluir vai aparecer*/
+.active {
+    display: flex;
+}
+
+/*tempo que a janela modal vai aparecer após a clicar*/
+.active .modal {
+    animation: modal 1s
+}
+
+/*verificar*/
+@keyframes modal {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -60px, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+}
+
+td button {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+/*tamanho dos ícones*/
+td button i {
+    font-size: 25px;
+}
+
+td button i:first-child {
+    margin-right: 500px;
+}
+  
+  
+  
+
+
+
