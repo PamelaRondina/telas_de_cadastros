@@ -14,9 +14,19 @@ Este projeto teve como objetivo realizar uma tela de cadastro de funcionários, 
 
 <hr>
 
+## Captura de vídeo
+
+![ice_video_20220926-112904_edit_0](https://user-images.githubusercontent.com/108991648/192306528-56960b6d-3c24-45f0-b860-6738ff8bab2a.gif)
+
+<hr>
+
+## Captura de tela inicial
+
 ![image](https://user-images.githubusercontent.com/108991648/192301269-56995091-e7ed-43c9-9ffa-1ce505730a20.png)
 
 <hr>
+
+## Captura de tela de cadastro
 
 ![image](https://user-images.githubusercontent.com/108991648/192123994-36b1591c-d69b-408d-95ee-99f9902803ee.png)
 
