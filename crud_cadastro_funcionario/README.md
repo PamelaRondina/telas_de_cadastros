@@ -14,7 +14,7 @@ Este projeto teve como objetivo realizar uma tela de cadastro de funcionários, 
 
 <hr>
 
-![image](https://user-images.githubusercontent.com/108991648/192123973-3cfac04c-7431-4377-85c7-8788d376e362.png)
+![image](https://user-images.githubusercontent.com/108991648/192301269-56995091-e7ed-43c9-9ffa-1ce505730a20.png)
 
 <hr>
 
