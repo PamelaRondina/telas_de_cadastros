@@ -16303,6 +16303,16 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\pamela\\Documents\\cursos_tecnologia\\telas_de_cadastros\\crud_mvc_banco_de_dados_sql_server\\Web_crud_mvc_sql\\Web_crud_mvc_sql\\Views\\Produtos\\Create.cshtml",
+      "TargetPath": "Views\\Produtos\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pamela\\Documents\\cursos_tecnologia\\telas_de_cadastros\\crud_mvc_banco_de_dados_sql_server\\Web_crud_mvc_sql\\Web_crud_mvc_sql\\Views\\Produtos\\Index.cshtml",
+      "TargetPath": "Views\\Produtos\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\pamela\\Documents\\cursos_tecnologia\\telas_de_cadastros\\crud_mvc_banco_de_dados_sql_server\\Web_crud_mvc_sql\\Web_crud_mvc_sql\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -16310,6 +16320,11 @@
     {
       "FilePath": "c:\\Users\\pamela\\Documents\\cursos_tecnologia\\telas_de_cadastros\\crud_mvc_banco_de_dados_sql_server\\Web_crud_mvc_sql\\Web_crud_mvc_sql\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pamela\\Documents\\cursos_tecnologia\\telas_de_cadastros\\crud_mvc_banco_de_dados_sql_server\\Web_crud_mvc_sql\\Web_crud_mvc_sql\\Views\\Produtos\\Edit.cshtml",
+      "TargetPath": "Views\\Produtos\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -16328,8 +16343,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\pamela\\Documents\\cursos_tecnologia\\telas_de_cadastros\\crud_mvc_banco_de_dados_sql_server\\Web_crud_mvc_sql\\Web_crud_mvc_sql\\Views\\Produtos\\Delete.cshtml",
+      "TargetPath": "Views\\Produtos\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\pamela\\Documents\\cursos_tecnologia\\telas_de_cadastros\\crud_mvc_banco_de_dados_sql_server\\Web_crud_mvc_sql\\Web_crud_mvc_sql\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\pamela\\Documents\\cursos_tecnologia\\telas_de_cadastros\\crud_mvc_banco_de_dados_sql_server\\Web_crud_mvc_sql\\Web_crud_mvc_sql\\Views\\Produtos\\Details.cshtml",
+      "TargetPath": "Views\\Produtos\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],
