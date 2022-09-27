@@ -80,7 +80,24 @@ Novamente em DbContext, no teclado apertar (CTRL + .):
 
 Em seguida: 
 - criar o construtor do contexto `DbContextOptions`
-- Definir o Db7 
+- Definir o `DbSet`, "falar' para o EntityFramework quais são modelos que ele gerencie pra mim, caso não exista no banco ele cria
+
+```css
+using Microsoft.EntityFrameworkCore;
+
+namespace Web_crud_mvc_sql.Models
+{
+    public class Contexto : DbContext
+    {
+        public Contexto( DbContextOptions<Contexto> options): base(options)
+        { 
+        
+        }
+
+        public DbSet<Produto> Produto { get; set; }
+    }
+}
+```
 
 
 
