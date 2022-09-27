@@ -19,6 +19,13 @@ Update-database -Context Contexto
 
 Instalar o SQL
 
+[String de SQL](https://www.youtube.com/watch?v=R0Eb_IocaIs)
+
+
+**String de SQL**
+
+
+
 
 Instalar o Visual Studio:
 [Como Instalar o Visual Studio 2022](https://www.youtube.com/watch?v=_HgVooVuGOE)
