@@ -99,6 +99,15 @@ namespace Web_crud_mvc_sql.Models
 }
 ```
 
+No arquivo Program, entre os dados abaixo incluir
+
+```cs
+builder.Services.AddControllersWithViews();
+
+var app = builder.Build();
+```
+
+
 
 
 
