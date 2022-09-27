@@ -28,3 +28,61 @@ _______________
 
 - No visual Studio, novo projeto e escolher onde será salvo
 
+MVC - Controllers, Models and Views
+
+![image](https://user-images.githubusercontent.com/108991648/192586073-375b88e3-657c-4300-b0a3-a0c91fc700e9.png)
+
+Dentro de Models, criar uma classe:
+- Botão direito, adicionar, classe.
+- Duas propriedades: Id e Nome
+
+```cs
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Web_crud_mvc_sql.Models
+{
+    [Table("Produto")]
+    public class Produto
+    {
+        [Column("Id")]
+        [Display(Name ="Código")]
+        public int Id { get; set; }
+
+        [Column("Nome")]
+        [Display(Name = "Nome")]
+        public string Nome { get; set; }
+    }
+}
+```
+
+Criar contexto que fará conexão com o banco de dados
+
+```cs
+namespace Web_crud_mvc_sql.Models
+{
+    public class Contexto : DbContext
+    {
+    }
+}
+```
+
+Em DbContext, no teclado apertar (CTRL + .):
+
+![image](https://user-images.githubusercontent.com/108991648/192592690-eda4b9f6-b83b-47ae-8ff1-d4ea57e6f156.png)
+
+Install-Package Microsoft.EntityFrameworkCore
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+
+Novamente em DbContext, no teclado apertar (CTRL + .):
+
+![image](https://user-images.githubusercontent.com/108991648/192593938-46be6a3b-607a-41f0-8e01-98da0db0d5ff.png)
+
+Em seguida: 
+- criar o construtor do contexto `DbContextOptions`
+- Definir o Db7 
+
+
+
+
+
