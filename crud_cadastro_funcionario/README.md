@@ -1,6 +1,6 @@
 # Projeto - Tela de Cadastro de Funcionários
 
-Este projeto teve como objetivo realizar uma tela de cadastro de funcionários, com as seguintes informações:
+Este projeto é uma Tela de Cadastro de Funcionários, uma aplicação de crud, utilizando HTML, CSS e Javascript. 
 
 - Botão de Incluir:
     - Nome
