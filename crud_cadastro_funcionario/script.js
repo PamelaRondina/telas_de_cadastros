@@ -86,10 +86,10 @@ function insertItem(item, index) {
     <td>${item.aniversario}</td>
     <td>${item.telefone}</td>  
     <td class="acao">
-        <button onclick="editItem(${index})"><i class='bx bx-edit' ></i></button>
+        <button onclick="editItem(${index})"><i class='bx bx-edit-alt bx-border' ></i></button>
     </td>
     <td class="acao">
-        <button onclick="deleteItem(${index})"><i class='bx bx-trash'></i></button>
+        <button onclick="deleteItem(${index})"><i class='bx bx-trash bx-border bx-tada-hover'></i></button>
     </td>
    `
     tbody.appendChild(tr)
