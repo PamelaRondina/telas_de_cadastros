@@ -225,6 +225,8 @@ Gerada a Strinf de Conexão: :)
 - Clicar como botão direito e ir em propriedades
 - Na Cadeia de Conexão é o local onde teremos a chave de nossa string
 
+<hr>
+
 Referências | Links
 :-|:-
 
