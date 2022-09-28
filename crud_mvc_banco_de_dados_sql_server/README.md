@@ -1,5 +1,5 @@
 
-Neste projeto vamos conhecer um pouco mais:
+Neste projeto vamos conhecer:
 
 * CRUD *MVC APS.NET6 C#
 * Banco de Dados: SQL Server Microsoft
@@ -7,78 +7,32 @@ Neste projeto vamos conhecer um pouco mais:
 
 <hr>
 
+## Instrutor
+Valdir Ferreira - [Canal Dev Net Core](https://www.youtube.com/user/valdirferreira20)
+
+<hr>
+
 ## Instalações
 
 **Visual Studio**
 
-[Como Instalar o Visual Studio 2022](https://www.youtube.com/watch?v=_HgVooVuGOE)
-[Visual Studio 2022](https://visualstudio.microsoft.com/)
+* [Como Instalar o Visual Studio 2022](https://www.youtube.com/watch?v=_HgVooVuGOE)
+* [Visual Studio 2022](https://visualstudio.microsoft.com/)
+* Pacotes necessários:
+    - Pacotes instalados:
+    - Install-Package Microsoft.EntityFrameworkCore
+    - Install-Package Microsoft.EntityFrameworkCore.SqlServer
+    - Install-Package Microsoft.EntityFrameworkCore.Design
+    - Install-Package Microsoft.EntityFrameworkCore.Tools
+
+**SQL**
 
 
+<hr>
 
+### Iniciando o projeto
 
-
-
-https://www.youtube.com/watch?v=zr3QiQDZ0-k
-
-Pacotes instalados:
-Install-Package Microsoft.EntityFrameworkCore
-Install-Package Microsoft.EntityFrameworkCore.SqlServer
-
-Install-Package Microsoft.EntityFrameworkCore.Design
-Install-Package Microsoft.EntityFrameworkCore.Tools
-
-Comandos do Migration executados para criação do banco:
-Add-Migration Criacao-Inicial -Context Contexto
-Update-database -Context Contexto
-
-Instalar o SQL
-
-
-
-
-**String de SQL**
-
-[String de SQL](https://www.youtube.com/watch?v=R0Eb_IocaIs)
-
-Dado incluso na aba Program.cs
-
-![image](https://user-images.githubusercontent.com/108991648/192612074-283358fa-6b14-48df-b211-0eecad8b5f83.png)
-
-- `Data Source`, é o nome do banco de servidor do SQL, ao copiar esta informação inclua uma ( \ ) a mais na colagem
-- `Initial Catalog`, nome da database
-- Pode ou não ser executado com usuário e senha
-
-![image](https://user-images.githubusercontent.com/108991648/192606138-8f4334f0-47b7-419c-8599-aa5a3cb9df22.png)
-
-
-
-Como obter os link:
-
-- No VS clicar em exibir, Server Explorar e na "tomada" (conectar-se a um banco de dados)
-
-![image](https://user-images.githubusercontent.com/108991648/192606330-2c5369cd-14c7-4e9b-a6df-4ec013930cd7.png)
-
-- Microsoft SQL Server
-- Repetir o nome do servidor 
-- Autenticação define se existirá usuário e senha ou não
-- Selecionar ou digitar um nome de banco de dados: a princício incluir como `master`. 
-
-Gerada a Strinf de Conexão: :)
-
-![image](https://user-images.githubusercontent.com/108991648/192609519-4840f04e-28bb-470e-ba71-7d8ca61c0b7f.png)
-
-- Clicar como botão direito e ir em propriedades
-- Na Cadeia de Conexão é o local onde teremos a chave de nossa string
-
-
-
-
-
-
-_______________
-
-- No visual Studio, novo projeto e escolher onde será salvo
+No visual Studio, novo projeto e escolher onde será salvo
 
 MVC - Controllers, Models and Views
 
@@ -170,7 +124,7 @@ builder.Services.AddDbContext<Contexto>
     
 var app = builder.Build();
 ```
-> Para gerar uma nova string de conexão, verificar início deste arquivo
+> Criando uma String de Conexão em SQL, [clique aqui]()
 __________
 
 **Arquivo Controller.cs**
@@ -234,6 +188,37 @@ Visualiando no SQL os mesmos itens são criados: F5 para atualzizar
 
 ![image](https://user-images.githubusercontent.com/108991648/192627080-eb4562d7-27d3-412f-8deb-453b4b72eafb.png)
 
+### Criando uma String de Conexão em SQL
+
+[String de SQL](https://www.youtube.com/watch?v=R0Eb_IocaIs)
+
+Dado incluso na aba Program.cs
+
+![image](https://user-images.githubusercontent.com/108991648/192612074-283358fa-6b14-48df-b211-0eecad8b5f83.png)
+
+- `Data Source`, é o nome do banco de servidor do SQL, ao copiar esta informação inclua uma ( \ ) a mais na colagem
+- `Initial Catalog`, nome da database
+- Pode ou não ser executado com usuário e senha
+
+![image](https://user-images.githubusercontent.com/108991648/192606138-8f4334f0-47b7-419c-8599-aa5a3cb9df22.png)
+
+Como obter os link:
+
+- No VS clicar em exibir, Server Explorar e na "tomada" (conectar-se a um banco de dados)
+
+![image](https://user-images.githubusercontent.com/108991648/192606330-2c5369cd-14c7-4e9b-a6df-4ec013930cd7.png)
+
+- Microsoft SQL Server
+- Repetir o nome do servidor 
+- Autenticação define se existirá usuário e senha ou não
+- Selecionar ou digitar um nome de banco de dados: a princício incluir como `master`. 
+
+Gerada a Strinf de Conexão: :)
+
+![image](https://user-images.githubusercontent.com/108991648/192609519-4840f04e-28bb-470e-ba71-7d8ca61c0b7f.png)
+
+- Clicar como botão direito e ir em propriedades
+- Na Cadeia de Conexão é o local onde teremos a chave de nossa string
 
 
 
