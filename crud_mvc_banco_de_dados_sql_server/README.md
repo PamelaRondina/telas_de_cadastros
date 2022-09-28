@@ -16,6 +16,7 @@ Valdir Ferreira - [Canal Dev Net Core](https://www.youtube.com/user/valdirferrei
 
 **Visual Studio**
 
+Com [DFILITTO](https://www.youtube.com/c/DaniloFilittoPPR):
 * [Como Instalar o Visual Studio 2022](https://www.youtube.com/watch?v=_HgVooVuGOE)
 * [Visual Studio 2022](https://visualstudio.microsoft.com/)
 * Pacotes necessários:
@@ -25,8 +26,12 @@ Valdir Ferreira - [Canal Dev Net Core](https://www.youtube.com/user/valdirferrei
     - Install-Package Microsoft.EntityFrameworkCore.Design
     - Install-Package Microsoft.EntityFrameworkCore.Tools
 
-**SQL**
+**SQL Server 2019 e SSMS**
 
+Com [Bóson Treinamentos](https://www.youtube.com/c/bosontreinamentos):
+* [Como Como instalar o SQL Server 2019 e Management Studio no Win 10](https://www.youtube.com/watch?v=LxtLqS-9KYo)
+* [SQL Server 2019](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
+* [SSMS](https://learn.microsoft.com/pt-br/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
 
 <hr>
 
@@ -38,7 +43,6 @@ MVC - Controllers, Models and Views
 
 ![image](https://user-images.githubusercontent.com/108991648/192586073-375b88e3-657c-4300-b0a3-a0c91fc700e9.png)
 
-_________
 
 **Arquivo Models**
 
@@ -64,6 +68,8 @@ namespace Web_crud_mvc_sql.Models
     }
 }
 ```
+
+**Arquivo Contexto.cs**
 
 Criar contexto que fará conexão com o banco de dados
 
@@ -107,7 +113,6 @@ namespace Web_crud_mvc_sql.Models
     }
 }
 ```
-___________
 
 **Arquivo Program.cs**
 
@@ -124,8 +129,8 @@ builder.Services.AddDbContext<Contexto>
     
 var app = builder.Build();
 ```
-> Criando uma String de Conexão em SQL, [clique aqui]()
-__________
+> Criando uma String de Conexão em SQL, [clique aqui](https://github.com/PamelaRondina/telas_de_cadastros/tree/main/crud_mvc_banco_de_dados_sql_server#criando-uma-string-de-conex%C3%A3o-em-sql)
+
 
 **Arquivo Controller.cs**
 
@@ -143,7 +148,7 @@ Métodos e Views que vão listar, criar, editar e excluir (CRUD)
 
 <hr>
 
-**Criar a base de dados no Microsoft SQL a partor do Visual Studio**
+**Criar a base de dados no Microsoft SQL a partir do Visual Studio**
 
 - Ferramentas, 
 - Gerenciador de Pacotes do NuGet
@@ -219,6 +224,9 @@ Gerada a Strinf de Conexão: :)
 
 - Clicar como botão direito e ir em propriedades
 - Na Cadeia de Conexão é o local onde teremos a chave de nossa string
+
+Referências | Links
+:-|:-
 
 
 
