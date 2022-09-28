@@ -229,10 +229,14 @@ Gerada a Strinf de Conexão: :)
 
 Referências | Links
 :-|:-
-
-
-
-
+Canal Dev Net Core | [Link Youtube](https://www.youtube.com/user/valdirferreira20)
+Canal DFILITTO | [Link Youtube](https://www.youtube.com/c/DaniloFilittoPPR)
+Bóson Treinamentos | [Link Youtube](https://www.youtube.com/c/bosontreinamentos)
+Instalar Visual Studio 2022 | [Link Youtube](https://www.youtube.com/watch?v=_HgVooVuGOE)
+Instalar SQL Server 2019 e SSMS | [Link Site](https://www.youtube.com/watch?v=LxtLqS-9KYo)
+Instalar SQL Server| [Link Site](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
+Instalar SSMS | [Link Site](https://learn.microsoft.com/pt-br/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-ver15)
+Criando uma String de Conexão em SQL | [Link Youtube](https://www.youtube.com/watch?v=R0Eb_IocaIs)
 
 
 
