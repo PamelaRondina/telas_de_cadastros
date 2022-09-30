@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace, 'Arial Narrow', Arial, sans-serif;
+    outline: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    max-width: 550px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Entrda, Saída e Total
+Classifica a div e chama o nome da classificação!*/
+
+.resume {
+    display: flex;
+    padding: 10px 0;
+    /*distância entre as lacunas*/
+    gap: 40px;
+    width: 100%;
+    justify-content: center;
+    /*quando a tela for menor*/
+    flex-wrap: wrap;
+}
+
+/*Para cada item dentro do resumo, cada div*/
+.resume>div {
+    display: flex;
+    flex-direction: column-reverse;
+    /*sombra de caixa horizontal | vertical */
+    box-shadow: 0px 10px 5px #ccc;
+    /*quina da borda*/
+    border-radius: 5px;
+    padding: 10px;
+    width: 150px;
+}
+
+.newItem {
+    display: flex;
+    /*distância entre as lacunas*/
+    gap: 10px;
+    align-items: end;
+    width: 100%;
+    justify-content: center;
+    /*quando a tela for menor*/
+    flex-wrap: wrap;
+}
+
+.divDesc, .divAmount, .divType {
+    display: flex;
+    flex-direction: column;
+}
+
+.newItem>button {
+    /*cor da caixa do botão*/
+    background-color: aqua;
+    /*cor da letra do botao*/
+    color: black ;
+    border: none;
+    padding: 0 15px;
+    border-radius: 15px;
+    cursor: crosshair;
+    height: 34px;
+    /*sombra de caixa horizontal | vertical */
+    box-shadow: 0px 10px 5px #ccc;
+}
+
+input, select {
+    padding: 3px;
+}
+
+.divTable {
+    width: 100%;
+    
+}
+
