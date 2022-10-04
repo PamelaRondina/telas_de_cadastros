@@ -82,6 +82,59 @@ input, select {
 
 .divTable {
     width: 100%;
-    
+    display: flex;
+    justify-content: center;
 }
+
+/*quando não é classe, para chamar não é necessário o (.) antes do nome*/
+table {
+    /*distância das tabelas*/
+    width: 98%;
+    border-bottom: inset;
+    border-radius: 5px;
+}
+
+th {
+    text-align: start;
+    border-bottom: inset;
+    padding-bottom: 5px;
+}
+
+i {
+    /*para os ícons*/
+    font-size: 25px;
+}
+
+.bxs-chevron-up-square{
+    color: greenyellow;
+}
+
+.bxs-chevron-down-square{
+    color: crimson;
+}
+
+.columnAction {
+    width: 40px;
+    text-align: center;
+}
+
+.columnAction>button {
+    background: transparent;
+    border: none;
+}
+
+.columnAmount {
+    width: 30%;
+}
+
+.columnType {
+    width: 80px;
+    text-align: center;
+}
+
+
+
+
+
+
 
